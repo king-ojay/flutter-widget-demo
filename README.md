@@ -44,7 +44,7 @@ Allows you to change the appearance (colors, size, shape, etc.).
 
 Example: ElevatedButton.styleFrom(backgroundColor: Colors.blue) would give a custom button color.
 
-**Screeshot**
+**Screenshot**
    
    <img width="1206" height="2622" alt="simulator_screenshot_85188B72-37D7-4A64-800C-8424065143CC" src="https://github.com/user-attachments/assets/ae50c2f6-c013-4735-a9e0-effa3d744d59" />
 
