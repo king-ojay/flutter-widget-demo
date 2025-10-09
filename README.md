@@ -1,61 +1,66 @@
-# ElevatedButton Demo – Ojays Account Balance Checker
+ElevatedButton Demo – Ojay’s Account Balance Checker
 
-This Flutter project demonstrates the use of the **ElevatedButton** widget in a simple real-world scenario.  
-The demo allows a user to enter an account number and, when pressing the ElevatedButton, displays a mock account balance on the screen.
+This Flutter project demonstrates the ElevatedButton widget through a simple real-world use case — checking a mock account balance.
+The app allows users to input an account number and, upon pressing the button, displays the account details and balance on screen.
 
----
+Widget Overview
 
-## 📱 Demo Description
-- A text field lets the user type in an account number.  
-- An **ElevatedButton** is pressed to "check" the balance.  
-- The account number and a mock balance are displayed below the button.
+The ElevatedButton widget in Flutter is a commonly used material design button that elevates itself when pressed, drawing the user’s attention to important actions.
+In this demo, it serves as the action trigger to “check” the balance entered by the user.
 
----
+Demo Description
 
-## 🚀 How to Run
-1. Clone this repository:
-   git clone https://github.com/king-ojay/flutter-widget-demo.git
-2. Navigate into the project folder:
-   cd flutter-widget-demo
-3. Get dependencies:
-   flutter pub get
-4. Run the app on an emulator or device:
-   flutter run
+A TextField lets the user type in an account number.
 
-ElevatedButton – Three Key Attributes
+An ElevatedButton is pressed to “check” the balance.
 
-This demo highlights three important properties of the ElevatedButton widget:
+The app then displays the entered account number and a mock account balance below the button.
 
-onPressed
+This simple design demonstrates how user interaction can trigger UI updates using stateful widgets in Flutter.
 
-Defines the action when the button is tapped.
+⚙️ How to Run
 
-In this demo, it updates the UI to display the entered account number and balance.
+Clone the repository:
 
-child
+git clone https://github.com/king-ojay/flutter-widget-demo.git
 
-Specifies the widget inside the button (usually text or an icon).
 
-Here, it’s a Text("Paste") widget.
+Navigate to the project folder:
 
-style (optional, customizable)
+cd flutter-widget-demo
 
-Allows you to change the appearance (colors, size, shape, etc.).
 
-Example: ElevatedButton.styleFrom(backgroundColor: Colors.blue) would give a custom button color.
+Get dependencies:
 
-**Screenshot**
-   
-   <img width="1206" height="2622" alt="simulator_screenshot_85188B72-37D7-4A64-800C-8424065143CC" src="https://github.com/user-attachments/assets/ae50c2f6-c013-4735-a9e0-effa3d744d59" />
+flutter pub get
+
+
+Run the app:
+
+flutter run
+
+Three Key Attributes of ElevatedButton
+Attribute	Purpose	Example from Demo
+onPressed	Defines what happens when the button is tapped.	Updates the UI to display the entered account number and balance.
+child	Specifies the content (text, icon, etc.) displayed inside the button.	Displays Text("Check Balance").
+style	Controls the appearance — color, shape, padding, etc.	Uses ElevatedButton.styleFrom(backgroundColor: Colors.blue) for a custom button color.
+Screenshot
+<img width="300" src="https://github.com/user-attachments/assets/ae50c2f6-c013-4735-a9e0-effa3d744d59" alt="App Screenshot" />
+The link to my slides👉 "https://www.canva.com/design/DAG0VhJXVdk/ul9qCksxH-td5F82wEKZjA/edit?utm_content=DAG0VhJXVdk&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"    
+In-Class Presentation
+
+Date: September 29, 2025
+Widget Demonstrated: ElevatedButton
+Presentation Duration: 3–5 minutes
+Example Use Case: Checking/displaying an account balance
+Slides: View Presentation Slides
+ ← (Replace this with your actual link before submission)
 
 Notes
 
-Widget demonstrated: ElevatedButton
+Code originality: Built with reference to official Flutter documentation on ElevatedButton
+.
 
-Presentation length: 3–5 minutes
+Commit style: Multiple meaningful commits to show project progression.
 
-Example use case: Checking/displaying an account balance
-n-class Presentation
-
-Date: 09/29/2025
-
+README completeness: Includes a demo description, run instructions, attributes, and screenshot.
